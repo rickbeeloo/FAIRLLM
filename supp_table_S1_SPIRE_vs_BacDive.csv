@@ -1,0 +1,94 @@
+Spire category	term	BacDive tag	ontology_link	pull_term	host_ncbi_taxonomy_id	comment
+terrestrial	terrestrial	#Terrestrial	ENVO:00000446			
+terrestrial	terrestrial:soil	#Soil	ENVO:00001998			
+terrestrial	terrestrial:arid	#Arid	ENVO:01000230;ENVO:01000179;ENVO:00000097			
+terrestrial	terrestrial:grassland	#Grassland	ENVO:00000106;ENVO:01000177			
+terrestrial	terrestrial:cropland		ENVO:01001244	anthropogenic:agriculture		
+terrestrial	terrestrial:forest	#Forest	ENVO:00000111;ENVO:01000174			includes woodland
+terrestrial	terrestrial:tundra	#Tundra	ENVO:01000180			
+terrestrial	terrestrial:permafrost	#Permafrost	ENVO:00000134			
+terrestrial	terrestrial:wetland	#Wetland (Swamp)	ENVO:00000043	aquatic:lentic		
+terrestrial	terrestrial:wetland:mangrove	#Mangrove	ENVO:01000181	aquatic:lentic;aquatic:littoral		
+terrestrial	terrestrial:subsurface					
+aquatic	aquatic	#Aquatic	ENVO:00002030			
+aquatic	aquatic:lentic		ENVO:01000617			still (non-flowing) water body
+aquatic	aquatic:lotic		ENVO:01000618			flowing water body
+aquatic	aquatic:fresh water	#Freshwater	ENVO:00000873	salinity:low salinity		low salinity (<0.5ppt)
+aquatic	aquatic:fresh water:lacustrine		ENVO:01000252; ENVO:00000020	salinity:low salinity;aquatic:lentic		
+aquatic	aquatic:fresh water:lake bed		ENVO:00000268	aquatic:sediment		
+aquatic	aquatic:fresh water:stream		ENVO:01000253; ENVO:00000023	salinity:low salinity;aquatic:lotic		
+aquatic	aquatic:fresh water:stream bed		ENVO:00000383	aquatic:sediment		
+aquatic	aquatic:brackish water	#Brackish	ENVO:01000322	salinity:medium salinity		medium salinity (0.5-30ppt)
+aquatic	aquatic:brackish water:estuary	#Estuary	ENVO:01000020	salinity:medium salinity		
+aquatic	aquatic:saline water		ENVO:01000307	salinity:high salinity		high salinity (30-50 ppt)
+aquatic	aquatic:briny water		ENVO:00003044	salinity:very high salinity		very high salinity (>=50 ppt)
+aquatic	aquatic:marine		ENVO:00000447			
+aquatic	aquatic:marine:sea floor		ENVO:00000482	aquatic:benthic		
+aquatic	aquatic:littoral		ENVO:01000125			
+aquatic	aquatic:pelagic		ENVO:01000023			
+aquatic	aquatic:benthic		ENVO:01000024			
+aquatic	aquatic:sediment	#Sediment		aquatic:benthic		
+aquatic	aquatic:groundwater	#Groundwater	ENVO:01001004	terrestrial:subsurface;aquatic:fresh water		includes aquifers
+aquatic	aquatic:spring	#Spring	ENVO:00000027	aquatic:lotic		
+aquatic	aquatic:spring:hot spring		ENVO:00000051	aquatic:lotic		
+aquatic	aquatic:spring:hydrothermal vent	#Hydrothermal vent	ENVO:00000215	aquatic:benthic;aquatic:lotic;aquatic:marine:sea floor;temperature:very high temperature		
+aquatic	aquatic:spring:seep		ENVO:01000262	aquatic:lotic		
+aquatic	aquatic:ice	#Ice	ENVO:01000277	temperature:very low temperature		
+host-associated	host-associated					
+host-associated	host-associated:plant host	#Plants	ENVO:01001001		3193	"tax ID points to ""Embryophyta"""
+host-associated	host-associated:plant host:rhizosphere	#Rhizosphere	ENVO:00005801;PO:0009005			
+host-associated	host-associated:plant host:phyllosphere	#Leaf (Phyllosphere)	PO:0006001			
+host-associated	host-associated:plant host:plant litter	#Plant litter (Forest)	ENVO:01000628			
+host-associated	host-associated:animal host		ENVO:01001002		33208	"tax ID for ""Metazoa"""
+host-associated	host-associated:animal host:mammalian host	#Mammals			40674	
+host-associated	host-associated:animal host:mammalian host:human host	#Human			9606	
+host-associated	host-associated:animal host:coral reef	#Cnidaria (Corals)	ENVO:00000150	aquatic:benthic		
+host-associated	host-associated:animal host:insect host	#Insecta			50557	
+host-associated	host-associated:animal host:digestive tract	#Gastrointestinal tract	ENVO:01001033;UBERON:0001555			
+host-associated	host-associated:animal host:digestive tract:mouth	#Mouth	ENVO:08000002;UBERON:0000165			
+host-associated	host-associated:animal host:digestive tract:mouth:saliva	#Saliva	ENVO:02000036;UBERON:0001836			
+host-associated	host-associated:ainmal host:digestive tract:stomach	#Stomach	UBERON:0000945			
+host-associated	host-associated:ainmal host:digestive tract:rumen	#Rumen	UBERON:0007365	host-associated:animal host:mammalian host		
+host-associated	host-associated:animal host:digestive tract:intestine	#Large intestine,#Small intestine	ENVO:2100002;UBERON:0000160			
+host-associated	host-associated:animal host:urogenital tract	#Urogenital tract 	UBERON:0004122			
+host-associated	host-associated:animal host:airways	#Oral cavity and airways	UBERON:0001004			
+host-associated	host-associated:animal host:skin		ENVO:2100003;UBERON:0002097			
+air	air	#Air	ENVO:00002005			
+anthropogenic	anthropogenic	#Engineered	ENVO:01000313			
+anthropogenic	anthropogenic:mock community		ENVO:08000002			
+anthropogenic	anthropogenic:built environment	#Built environment		terrestrial		
+anthropogenic	anthropogenic:built environment:hospital		ENVO:00002173			
+anthropogenic	anthropogenic:food	#Food production,#Food	FOODON:00002403			
+anthropogenic	anthropogenic:food:fermented food	#Fermented	FOODON:00001258			
+anthropogenic	anthropogenic:food:dairy product	#Dairy product	FOODON:00001256			
+anthropogenic	anthropogenic:agriculture	#Agriculture	ENVO:00000077			
+anthropogenic	anthropogenic:mine	#Mine	ENVO:00000076	terrestrial		
+anthropogenic	anthropogenic:waste	#Waste	ENVO:00002264			
+anthropogenic	anthropogenic:wastewater	#Wastewater	ENVO:00002001	aquatic		generic term to be used when more specific info is not available
+anthropogenic	anthropogenic:wastewater:sewage		ENVO:00002018	aquatic		unprocessed wastewater (before reaching the treatment plant)
+anthropogenic	anthropogenic:sludge	#Sewage sludge	ENVO:00002044			Includes also activated sludge (ENVO:00002046)
+						
+contaminated	contaminated	#Contamination	CHEBI:78298			impacted by a contaminant
+salinity	salinity:low salinity					<0.5ppt in water
+salinity	salinity:medium salinity					0.5-30ppt in water
+salinity	salinity:high salinity					30-50ppt in water
+salinity	salinity:very high salinity					>50ppt in water
+temperature	temperature:very low temperature		ENVO:01000309;PATO:0001306			<=7 deg C
+temperature	temperature:low temperature		ENVO:01000309;PATO:0001306			8-19 deg C
+temperature	temperature:medium temperature					20-45 deg C
+temperature	temperature:high temperature		ENVO:01000305			46-64 deg C
+temperature	temperature:very high temperature		ENVO:01000318			>=65 deg C
+ph	ph:acidic	#Acidic	ENVO:01000315			pH < 6
+ph	ph:neutral ph range					
+ph	ph:alkaline	#Alkaline	ENVO:01000316			pH > 8
+oxygen level	oxygen level:aerobic	#Anoxic (anaerobic)				
+oxygen level	oxygen level:microaerobic					
+oxygen level	oxygen level:anaerobic	#Anoxic (anaerobic)				
+						
+age group	age group:infant					0<age≤1yr old
+age group	age group:child	#Child				1<age≤10yrs old
+age group	age group:adolescent					10<age≤18 yrs old
+age group	age group:adult					18<age≤65yrs old
+age group	age group:elderly					>65 yrs old
+birth term	birth term:preterm birth					<37 gestational weeks
+birth term	birht term:full term birth					>=37 gestational weeks
